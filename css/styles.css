@@ -28,8 +28,9 @@ a {
 }
 
 .container {
-  max-width: 1158px;
-  padding: 0 15px;
+  /* max-width: 1158px; */
+  max-width: 288px;
+  padding: 0 auto;
   margin: 0 auto;
 }
 
@@ -147,8 +148,10 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/img11.jpg);
-  max-width: 1440px;
-  height: 600px;
+  /* max-width: 1440px;
+  height: 600px; */
+   max-width: 320px;
+  height: 432px; 
   margin: 0 auto;
   justify-content: center;
   background-repeat: no-repeat;
@@ -163,7 +166,8 @@ img {
   font-size: 56px;
   color: #fff;
   display: flex;
-  max-width: 496px;
+  /* max-width: 496px; */
+  max-width: 216px;
   text-align: center;
 }
 
@@ -895,4 +899,8 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+}
+
+@media screen and (min-width: 1158px) {
+  
 }
