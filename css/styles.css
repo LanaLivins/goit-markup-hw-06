@@ -237,7 +237,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('../images/img11.jpg');
+    url('../images/img6/img-desktop/people-office\ 1\ \(2\).jpg');
   max-width: 320px;
   height: 432px;
   margin: 0 auto;
@@ -973,7 +973,7 @@ img {
   fill: #f4f4fd;
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 320px) {
   .nav-list {
     display: none;
   }
@@ -986,7 +986,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 321px) {
   .container {
     max-width: 768px;
     padding: 0 auto;
@@ -1030,6 +1030,11 @@ img {
   .page-hero-background {
     max-width: 768px;
     height: 436px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/img6/img-tablet/Dark-bg-1x\ \(1\).jpg');
   }
 
   .contacts {
@@ -1107,7 +1112,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 767px) {
   .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -1133,6 +1138,11 @@ img {
   .page-hero-background {
     max-width: 1128px;
     height: 600px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/img6/img-desktop/people-office\ 1\ \(2\).jpg');
   }
 
   .page-hero-button {
