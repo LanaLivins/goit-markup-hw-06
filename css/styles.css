@@ -68,7 +68,7 @@ img {
   width: 24px;
   height: 24px;
   cursor: pointer;
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 20px;
 }
@@ -680,9 +680,8 @@ img {
   background-color: #31d0aa;
 }
 
-.footer-icons {
+.footer-icons-href {
   fill: #f4f4fd;
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -1086,6 +1085,11 @@ img {
     margin-right: 16px;
   }
 
+  .feature-list-title {
+    display: flex;
+    justify-content: flex-start;
+  }
+
   .team-list {
     gap: 24px;
   }
@@ -1116,6 +1120,8 @@ img {
 
   .footer-icons {
     display: block;
+    position: absolute;
+    left: 396px;
   }
 
   .footer-form-div {
