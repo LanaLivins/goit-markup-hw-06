@@ -1206,17 +1206,13 @@ img {
   .footer-main {
     display: flex;
     width: auto;
+    gap: 120px 80px;
   }
 
   .footer-logo-div {
   }
 
   .footer-icons {
-  }
-
-  .footer-form-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    position: static;
   }
 }
