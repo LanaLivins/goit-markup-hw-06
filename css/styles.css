@@ -1204,18 +1204,19 @@ img {
   }
 
   .footer-main {
-    width: 100%;
+    display: flex;
+    width: auto;
   }
 
   .footer-logo-div {
-    box-sizing: border-box;
-    padding-right: 120px;
   }
 
   .footer-icons {
   }
 
   .footer-form-div {
-    padding-left: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 }
