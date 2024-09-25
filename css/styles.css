@@ -246,7 +246,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('../images/img6/img-desktop/people-office\ 1\ \(2\).jpg');
+    url('../images/img6/img-mob/background.jpg');
   max-width: 320px;
   height: 432px;
   margin: 0 auto;
@@ -254,6 +254,18 @@ img {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+  .page-hero-background {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/img6/img-mob/background2x.jpg');
+  }
 }
 
 .page-hero-text {
@@ -1003,6 +1015,18 @@ img {
     margin: 0 auto;
   }
 
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .page-hero-background {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url('../images/img6/img-mob/background2x.jpg');
+    }
+  }
+
   .button-div {
     display: none;
   }
@@ -1134,6 +1158,18 @@ img {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .page-hero-background {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url('../images/img6/img-mob/background2x.jpg');
+    }
   }
 
   .contacts {
