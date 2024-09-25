@@ -1201,11 +1201,10 @@ img {
   }
 
   .page-footer {
-    padding: 100px 0;
   }
 
   .footer-main {
-    width: auto;
+    width: 100%;
   }
 
   .footer-logo-div {
@@ -1217,6 +1216,6 @@ img {
   }
 
   .footer-form-div {
-    margin-right: 0;
+    padding-left: 210px;
   }
 }
