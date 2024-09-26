@@ -349,15 +349,22 @@ picture {
   fill: #f4f4fd;
 }
 
+.label-user-privacy {
+  padding-left: 8px;
+}
+
 .link-privacy-policy {
   color: #4d5ae5;
+}
+
+.feature-div {
+  padding: 96px 0;
 }
 
 .page-feature {
   display: flex;
   flex-wrap: wrap;
-  gap: 96px;
-  padding: 96px 0;
+  gap: 72px;
 }
 
 .icons-section-oe {
@@ -499,8 +506,6 @@ picture {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  padding-top: 48px;
-  padding-bottom: 40px;
 }
 
 .page-portfolio {
@@ -811,7 +816,7 @@ picture {
 }
 
 .backdrop:not(.is-open) .modal {
-  transform: translate(-50%, -100%) scale(1.5);
+  transform: translate(-50%, -100%);
 }
 
 .contact-form {
@@ -924,10 +929,12 @@ picture {
 
 .checkbox-container {
   margin-bottom: 24px;
+  display: flex;
 }
 
 .button-form {
   display: block;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   font-family: 'Roboto', sans-serif;
