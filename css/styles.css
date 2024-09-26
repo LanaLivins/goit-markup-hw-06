@@ -1099,6 +1099,8 @@ picture {
   .header-container {
     margin-left: 16px;
     margin-right: 16px;
+    display: flex;
+    align-items: center;
   }
 
   .page-hero-text {
@@ -1158,6 +1160,7 @@ picture {
     display: block;
     position: absolute;
     left: 396px;
+    width: auto;
   }
 
   .footer-form-div {
@@ -1170,6 +1173,9 @@ picture {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+  }
+  .logo-header {
+    display: flex;
   }
 
   .page-hero-background {
