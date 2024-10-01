@@ -97,7 +97,7 @@ picture {
 .button-menu-x {
   position: absolute;
   top: 24px;
-  right: 24px;
+  right: 80px;
   width: 24px;
   height: 24px;
   border-radius: 100%;
@@ -465,6 +465,7 @@ picture {
   display: flex;
   gap: 40px;
   padding-top: 48px;
+  padding-bottom: 40px;
 }
 
 .team-social-link {
@@ -1199,7 +1200,7 @@ picture {
         rgba(46, 47, 66, 0.7)
       ),
       url('../images/img6/img-desktop/people-office.jpg');
-    max-width: 1440px;
+    min-width: 1440px;
     height: 600px;
     margin: 0 auto;
     justify-content: center;
@@ -1218,6 +1219,10 @@ picture {
         ),
         url('../images/img6/img-desktop/people-office-2x.jpg');
     }
+  }
+
+  .header-container {
+    margin: 0 auto;
   }
 
   .contacts {
@@ -1293,4 +1298,5 @@ picture {
 
 .footer-form-div {
   padding-left: 80px;
+  padding-top: 0px;
 }
