@@ -30,6 +30,7 @@ a {
 .container {
   max-width: 288px;
   margin: 0 auto;
+  padding: 0 auto;
 }
 
 img {
@@ -721,6 +722,7 @@ picture {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  padding-left: 0;
 }
 
 .footer-par-form {
@@ -1005,6 +1007,7 @@ picture {
   .nav-list {
     display: none;
   }
+
   .icons-section-one {
     display: none;
   }
@@ -1187,8 +1190,9 @@ picture {
 
 @media screen and (min-width: 1158px) {
   .container {
-    max-width: 1158px;
+    max-width: 1128px;
     padding: 0 auto;
+    margin: 0 auto;
   }
 
   .page-hero-background {
