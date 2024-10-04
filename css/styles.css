@@ -1276,7 +1276,9 @@ picture {
 
   .footer-main {
     display: flex;
-    width: auto;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 0px;
   }
 
   .footer-logo-div {
