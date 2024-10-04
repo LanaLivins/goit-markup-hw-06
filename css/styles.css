@@ -265,7 +265,6 @@ picture {
 }
 
 .page-hero-text {
-  /* line-height: 1.07; */
   line-height: 1.01;
   letter-spacing: 0.02em;
   font-weight: 700;
@@ -1207,6 +1206,10 @@ picture {
     }
   }
 
+  .page-hero-text {
+    text-align: center;
+  }
+
   .header-container {
     margin: 0 auto;
   }
@@ -1258,11 +1261,14 @@ picture {
   }
 
   .portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    row-gap: 48px;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 48px;
+  }
+
+  .page-portfolio {
+    padding: 120px 0;
   }
 
   .page-footer {
