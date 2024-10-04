@@ -1119,7 +1119,8 @@ picture {
   }
 
   .team-list {
-    gap: 24px;
+    grid-row-gap: 64px;
+    grid-column-gap: 24px;
   }
 
   .team-social-ul {
@@ -1130,37 +1131,37 @@ picture {
   .portfolio-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 24px;
+    grid-column-gap: 24px;
     grid-row-gap: 72px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .footer-main {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 584px;
-    align-items: baseline;
+    padding: 96px 0;
+    padding-left: 108px;
+    padding-right: 164px;
     gap: 0px;
   }
 
   .footer-logo-div {
     display: block;
-    padding-right: 24px;
+    padding-top: 0px;
+    margin-right: 24px;
   }
 
   .footer-icons {
-    display: block;
-    position: absolute;
-    left: 396px;
     width: auto;
   }
 
   .footer-icons-p {
-    justify-content: flex-start;
+    text-align: left;
   }
 
   .footer-form-div {
     display: block;
     padding-top: 72px;
+    padding-bottom: 0px;
   }
 }
 
