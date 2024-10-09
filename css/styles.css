@@ -164,8 +164,8 @@ picture {
 }
 
 .header-logo-first {
-  padding: 24px 0;
-  margin-right: 76px;
+  margin: 24px 0;
+  /* margin-right: 76px; */
 }
 
 .logo-header {
@@ -345,15 +345,15 @@ picture {
 }
 
 .label-user-privacy {
-  padding-left: 8px;
+  margin-left: 8px;
 }
 
 .link-privacy-policy {
   color: #4d5ae5;
 }
 
-.feature-div {
-  padding: 96px 0;
+.section-page-feature {
+  padding: 96px 16px;
 }
 
 .page-feature {
@@ -394,7 +394,6 @@ picture {
   letter-spacing: 0.02em;
   color: #434455;
   display: flex;
-  margin-top: 8px;
   justify-content: flex-start;
 }
 
@@ -443,7 +442,7 @@ picture {
 }
 
 .team-social-icons {
-  padding: 32px 0;
+  margin: 32px 0;
 }
 
 .team-social-li {
@@ -454,7 +453,7 @@ picture {
 .team-social-ul-mob {
   display: flex;
   gap: 40px;
-  padding-top: 48px;
+  margin-top: 48px;
   padding-bottom: 40px;
 }
 
@@ -607,7 +606,7 @@ picture {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-top: 111px;
+  margin-top: 111px;
 }
 
 .footer-text {
@@ -629,7 +628,7 @@ picture {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-bottom: 16px;
+  padding-bottom: 16px;
   text-align: center;
   display: flex;
 }
@@ -1004,6 +1003,10 @@ picture {
     margin: 0 auto;
   }
 
+  .header-logo-first {
+    margin-right: 120px;
+  }
+
   .page-hero-background {
     background-color: #2e2f42;
     display: flex;
@@ -1082,12 +1085,13 @@ picture {
   }
 
   .contacts-list {
-    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
   }
 
   .header-container {
-    margin-left: 16px;
-    margin-right: 16px;
+    padding: 0 16px;
     display: flex;
     align-items: center;
   }
@@ -1108,8 +1112,8 @@ picture {
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 72px;
     grid-column-gap: 24px;
-    margin-left: 16px;
-    margin-right: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .feature-list-title {
@@ -1123,7 +1127,7 @@ picture {
   }
 
   .team-social-ul {
-    padding-top: 8px;
+    margin-top: 8px;
     padding-bottom: 0px;
   }
 
@@ -1145,12 +1149,13 @@ picture {
 
   .footer-logo-div {
     display: block;
-    padding-top: 0px;
+    margin-top: 96px;
     margin-right: 24px;
   }
 
   .footer-icons {
     width: auto;
+    padding-top: 96px;
   }
 
   .footer-icons-p {
@@ -1159,7 +1164,7 @@ picture {
 
   .footer-form-div {
     display: block;
-    padding-top: 72px;
+    margin-top: 72px;
     padding-bottom: 0px;
   }
 
@@ -1214,14 +1219,9 @@ picture {
     margin: 0 auto;
   }
 
-  .contacts {
-    display: block;
-    width: 100%;
-  }
-
   .contacts-list {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
     gap: 40px;
   }
 
@@ -1251,8 +1251,8 @@ picture {
   .page-feature {
     display: flex;
     gap: 24px;
-    margin-left: 0px;
-    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .feature-list-title {
     font-weight: 500;
